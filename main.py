@@ -1,4 +1,4 @@
-import streamlit as st
+git import streamlit as st
 import json
 from PIL import Image
 import os
@@ -74,7 +74,7 @@ if st.session_state.get("page") != "fiche":
 # --- PAGE ACCUEIL ---
 if st.session_state.page == "Accueil":
     if st.session_state.page == "Accueil":
-        st.title("✨ Bienvenue sur Shoproom.tn")
+        st.title("✨ Bienvenue sur Bloom")
         st.subheader("Votre vitrine de panneaux décoratifs 3D en plâtre")
 
         st.write("""
@@ -87,7 +87,7 @@ if st.session_state.page == "Accueil":
         """)
 
         # Illustration ou bannière
-        st.image("images/bg.png", use_column_width=True, caption="Design mural 3D – rendu élégant")
+        st.image("images/bg.png", use_container_width=True, caption="Design mural 3D – rendu élégant")
 
         if st.button("🔎 Voir nos produits"):
             st.session_state.page = "liste"
