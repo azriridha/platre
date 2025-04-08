@@ -28,7 +28,6 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # ✅ Appel de la fonction
-#set_png_as_page_bg("images/rosier.png")
 
 
 
